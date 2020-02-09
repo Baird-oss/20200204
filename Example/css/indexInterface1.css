@@ -1,0 +1,37 @@
+#indexInterface1{
+	width: 100%;
+	height: 543px;
+	border: 0px solid red;
+	float: left;
+	/*两个图片再一个div中来回切换*/
+	background-image: url(../img/slider-2.jpg);
+	/* background-image: url(../img/slider-2.jpg); */
+	/* background-position: center; */
+	background-size: cover;
+	/*图片不重复*/
+	/* background-repeat: no-repeat ; */
+}
+#indexInterface11{
+	width: 384px;
+	height: 94px;
+	border: 0px solid #FF0000;
+	/* float: left; */
+	margin-top: 130px;
+	margin-left: 200px;
+}
+#faceBu{
+	width: 140px;
+	height: 45px;
+	background-color: #66cef6;
+	text-decoration: none;
+	font-size: 16px;
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-transform: uppercase;
+}
+#faceBu:hover{
+	background-color: #00BFFF;
+}
