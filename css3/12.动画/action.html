@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>动画</title>
+		<style>
+			@keyframes up{
+				0%   {background: red; left:0px; top:0px;}
+				25%  {background: yellow; left:200px; top:0px;}
+				50%  {background: blue; left:200px; top:200px;}
+				75%  {background: green; left:0px; top:200px;}
+				100% {background: red; left:0px; top:0px;}
+			}
+			#a{
+				width: 50px;
+				height: 50px;
+				background-color: #3388FF;
+				/*动画名称*/
+				animation-name: up;
+				/*动画时间*/
+				animation-duration: 5s;
+				/*延迟几秒*/
+				animation-delay: 2s;
+				/*显示次数（循环显示）*/
+				animation-iteration-count: infinite;
+				/*按原路径返回*/
+				animation-direction: alternate;
+				/*需要定位*/	
+				position: relative;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="a">
+			
+		</div>
+	</body>
+</html>

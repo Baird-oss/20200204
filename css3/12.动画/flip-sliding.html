@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>翻转滑动</title>
+		<style>
+			@keyframes up{
+				0%{background-color: #0000FF; transform: rotate(45deg); top: 60px; left: 0;}
+				50%{background-color: #008000;transform: rotate(0deg); top: 60px; left: 300px;}
+				100%{background-color: #0000FF; transform: rotate(-360deg);top: 60px; left: 0}
+			}
+			.flip-sliding{
+				width: 90px;
+				height: 60px;
+				background-color: #92B901;
+				position: absolute;
+				top: 60px;
+				color: white;
+				font-weight: 700;
+				font-family: "微软雅黑";
+				text-align: center;
+				line-height: 60px;
+				border-radius: 5px;
+				animation-name: up;
+				animation-duration: 5s;
+				animation-delay: 0s;
+				/* animation-iteration-count: infinite; */
+				animation-direction: alternate;
+				position: relative;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div class="flip-sliding">css动画</div>
+	</body>
+</html>
