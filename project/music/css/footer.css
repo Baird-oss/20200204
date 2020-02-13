@@ -1,0 +1,64 @@
+#MusicFooter{
+	width: 100%;
+	height: 50px;
+	/* background-color: red; */
+	display: flex;
+}
+@keyframes CD{
+	0%{transform: rotate(0);}
+	100%{transform: rotate(360deg);}
+}
+#MusicFooter #MusicFooter1{
+	flex: 0.15;
+	background-image: url(../img/CD.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	/* animation: all 15s infinite; */
+	/* transform: rotate(360deg);
+	transition: all 10s; */
+	animation-name: CD;
+	/*动画时间*/
+	animation-duration: 12s;
+	/*显示次数（循环显示）*/
+	animation-iteration-count: infinite;
+	/*需要定位*/	
+}
+#MusicFooter #MusicFooter2{
+	flex: 0.55;
+	/* background-color: #0000FF; */
+}
+#MusicFooter #MusicFooter3{
+	flex: 0.15;
+	/* background-color: #008000; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#MusicFooter #MusicFooter4{
+	flex: 0.15;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* #MusicFooter #MusicFooter1 img{
+	width: 50px;
+	height: 50px;
+	transform: rotate(360deg);
+} */
+#MusicFooter #MusicFooter2 span{
+	font-family: "楷体";
+	text-align: center;color: darkgray;
+	font-size: 12px;
+}
+#MusicFooter #MusicFooter2 b{
+	font-family: "楷体";
+	/* font-size: 12px; */
+}
+#MusicFooter #MusicFooter3 img{
+	width: 25px;
+	height: 25px;
+}
+#MusicFooter #MusicFooter4 img{
+	width: 25px;
+	height: 25px;
+}

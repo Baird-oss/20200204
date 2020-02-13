@@ -1,0 +1,17 @@
+#WCcontent{
+	width: 100%;
+	height: 80%;
+	background-color: #0000FF;
+	display: flex;
+	flex-direction: column;
+}
+#WCcontent div{
+	width: 100%;
+	height: 15%;
+	background-color: #008000;
+	border-bottom: 1px solid gainsboro;
+}
+#WCcontent div img{
+	width: 100%;
+	height: 60px;
+}

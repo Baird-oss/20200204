@@ -1,0 +1,88 @@
+#TXLeft{
+	width: 20%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+#TXLeft #TXLeftTop{
+	height: 8%;
+	width: 100%;
+	display: flex;
+}
+#TXLeft #TXLeftContent{
+	flex: 1;
+	/* background-color: #00BFFF; */
+	overflow: scroll;
+}
+
+#TXLeft #TXLeftButtom{
+	height: 6%;
+	width: 100%;
+	display: flex;	
+	align-items: center;
+}
+#TXLeft #TXLeftTopLeft{
+	width: 40%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#TXLeft #TXLeftTopRight{
+	width: 60%;
+	height: 100%;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#TXLeft #TXLeftTopLeft img{
+	width: 60px;
+	height: 60px;
+}
+#TXLeft .TXLeftContentDiv{
+	width: 100%;
+	height: 45px;
+	display: flex;
+	align-items: center;
+}
+#TXLeft .TXLeftContentDiv2{
+	width: 100%;
+	height: 45px;
+	display: flex;
+	align-items: center;
+}
+#TXLeft .TXLeftContentDiv img{
+	height: 35px;
+	width: 35px;
+	margin-left: 15px;
+	background-color: white;
+	border-radius: 17px;
+}
+#TXLeft .TXLeftContentDiv span{
+	color: #FF4400;
+	font-size: 15px;
+}
+#TXLeft .TXLeftContentDiv2 img{
+	height: 20px;
+	width: 20px;
+	margin-left: 20px;
+	background-color: white;
+	border-radius: 10px;
+}
+#TXLeft .TXLeftContentDiv2 span{
+	color: white;
+	font-size: 15px;
+}
+#TXLeft #TXLeftButtom img{
+	height: 20px;
+	width: 20px;
+	margin-left: 20px;
+	background-color: white;
+	border-radius: 10px;
+}
+#TXLeft #TXLeftButtom span{
+	color: white;
+	font-size: 15px;
+}
